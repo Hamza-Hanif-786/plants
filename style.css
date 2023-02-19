@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbarbg {
+    background: none;
+    height: 80px;
+}
+
+.offcanvas.sidebarbg{
+    background: #fcfcfc20;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #fcfcfc;
+}
+
+.offcanvas .closebtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #fcfcfc;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.active {
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+
+.navbar-toggler span i{
+    font-size: 30px;
+    color: #fcfcfc;
+}
+
+.herosection {
+    background: url(./images/heroimg.webp) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.herosection .herocontainer .heroheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.herosection .herocontainer .herotext {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.herosection .herocontainer .form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.herosection .herocontainer .search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background: #fcfcfc20;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #fcfcfc;
+    border-radius: 50px;
+}
+
+.herosection .herocontainer .searchbar {
+    background: transparent;
+    border: none;
+    padding: 20px;
+    margin: 8px 0;
+    color: #fcfcfc;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    font-size: 20px;
+}
+
+.herosection .herocontainer .searchbar:focus {
+    outline: none;
+}
+
+.herosection .herocontainer .searchbar::placeholder {
+    color: #fcfcfc;
+}
+
+.herosection .herocontainer .searchbtn {
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    border: none;
+    border-radius: 50px;
+    padding: 14px 20px;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 8px 0;
+    cursor: pointer;
+}
+   
+.infocontainer {
+    background: #fcfcfc;
+    padding: 50px 0;
+}
+
+.infocontainer .infoheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 10px;
+}
+
+.infocontainer .infotext {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    margin-bottom: 50px;
+}
+
+.infocontainer i{
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.productsection {
+    background: #fcfcfc;
+    padding: 50px 0;
+}
+
+.productsection .productheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 10px;
+}
+
+.productsection .productlink {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.productsection .productlink:hover {
+    color: #009EFD;
+    transition: 0.3s;
+}
+
+.productsection .productlink i:hover {
+    color: #009EFD;
+    transition: 0.3s;
+}
+
+.productsection .card{
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    background: #C1D0E4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.productsection .card .plantimg {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.productsection .card .card-body {
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 2;
+}
+
+.productsection .card .card-body .card-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 7px;
+}
+
+.productsection .card .card-body .rating{
+    color: #F2C94C;
+    margin-bottom: 50px;
+}
+
+.productsection .card .card-body .price {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #081323;
+}
+
+.productsection .card .card-body .addbtn {
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.productsection .card .card-body .addbtn:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+    
+.referencesection {
+    background: #fcfcfc;
+    padding: 50px 0;
+}
+
+.referencesection .heading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.referencesection .text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.referencesection .card{
+    border: none;
+}
+
+.referencesection .card .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    
+}
+
+.referencesection .card .card-img-overlay .card-text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+    
+.caresection {
+    background: #fcfcfc;
+    padding: 50px 0;
+}
+
+.caresection .heading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.caresection .text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.caresection .careheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #081323;
+    margin-bottom: 5px;
+}
+    
+.caresection .caretext {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+}
+
+.caresection i{
+    background: linear-gradient(to right, #2AF598, #009EFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footersection {
+    background: linear-gradient(to bottom right, #566270, #283444);
+    padding: 50px 0;
+}
+
+.footersection .mainheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footersection .subheading {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footersection .subtext {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 360px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 35px;
+    }
+
+    .herosection .herocontainer .herotext{
+        font-size: 16px;
+    }
+
+    .herosection .herocontainer .search-container{
+        width: 100%;
+    }
+
+    .herosection .herocontainer .search-container .searchbar{
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .herosection .herocontainer .search-container .searchbtn{
+        margin-right: 5px;
+        padding: 10px 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .herosection .herocontainer .herotext{
+        font-size: 18px;
+    }
+
+    .herosection .herocontainer .search-container{
+        width: 100%;
+    }
+
+    .herosection .herocontainer .search-container .searchbar{
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .herosection .herocontainer .search-container .searchbtn{
+        margin-right: 5px;
+        padding: 10px 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .herosection .herocontainer .herotext{
+        font-size: 20px;
+    }
+
+    .herosection .herocontainer .search-container{
+        width: 100%;
+    }
+
+    .herosection .herocontainer .search-container .searchbar{
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .herosection .herocontainer .search-container .searchbtn{
+        margin-right: 5px;
+        padding: 10px 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .herosection .herocontainer .herotext{
+        font-size: 22px;
+    }
+
+    .herosection .herocontainer .search-container{
+        width: 100%;
+    }
+
+    .herosection .herocontainer .search-container .searchbar{
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .herosection .herocontainer .search-container .searchbtn{
+        margin-right: 5px;
+        padding: 10px 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    .herosection .herocontainer .herotext{
+        font-size: 24px;
+    }
+
+    .herosection .herocontainer .search-container{
+        width: 100%;
+    }
+
+    .herosection .herocontainer .search-container .searchbar{
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .herosection .herocontainer .search-container .searchbtn{
+        margin-right: 5px;
+        padding: 10px 14px;
+    }
+}
+    
