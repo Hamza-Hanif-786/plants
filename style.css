@@ -361,11 +361,11 @@
 
 @media screen and (max-width: 360px) {
     .herosection .herocontainer .heroheading{
-        font-size: 35px;
+        font-size: 15px;
     }
 
     .herosection .herocontainer .herotext{
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .herosection .herocontainer .search-container{
@@ -434,14 +434,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .herosection .herocontainer .heroheading{
+    /* .herosection .herocontainer .heroheading{
         font-size: 50px;
         margin-bottom: 20px;
     }
 
     .herosection .herocontainer .herotext{
         font-size: 22px;
-    }
+    } */
 
     .herosection .herocontainer .search-container{
         width: 100%;
@@ -459,14 +459,14 @@
 }
 
 @media screen and (max-width: 992px) {
-    .herosection .herocontainer .heroheading{
+    /* .herosection .herocontainer .heroheading{
         font-size: 55px;
         margin-bottom: 20px;
     }
 
     .herosection .herocontainer .herotext{
         font-size: 24px;
-    }
+    } */
 
     .herosection .herocontainer .search-container{
         width: 100%;
@@ -482,4 +482,3 @@
         padding: 10px 14px;
     }
 }
-    
